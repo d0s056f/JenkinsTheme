@@ -425,7 +425,7 @@
 
     var doonyTitleLink = $("#top-panel a").first();
     //var domain = getSubdomain(window.location.hostname);
-    doonyTitleLink.html("<div id='doony-title'>" + "<img src='http://iwe.cisco.com/image/image_gallery?img_id=838521775'>" + "</div>");
+    doonyTitleLink.html("<div id='doony-title'>" + "<img src='http://iwe.cisco.com/image/image_gallery?img_id=838521876'>" + "</div>");
 
     var color = colors[Math.abs(hashCode(domain)) % colors.length];
     $("#top-panel").css('background-color', color);
