@@ -609,12 +609,12 @@ textarea {
 /********************   top panel styles      ***********************/
 .yui-skin-sam #top-panel {
   background-url: none;
-  background-color: #FF8000;
+  background-image: none;
   border-bottom: 1px solid #ccc;
 }
 
 .yui-skin-sam #top-panel img {
-  display: inline;
+  display: none;
 }
 
 .yui-skin-sam #search-box {
