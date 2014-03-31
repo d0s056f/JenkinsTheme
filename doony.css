@@ -614,7 +614,7 @@ textarea {
 }
 
 .yui-skin-sam #top-panel img {
-  display: none;
+  display: inline;
 }
 
 .yui-skin-sam #search-box {
@@ -749,7 +749,7 @@ a.yuimenulabel, a.yuimenuitemlabel,
 
 #doony-title {
   color: #fff;
-  margin: 0px 0px;
+  margin: 5px 10px;
 }
 
 /* copied from twitter bootstrap */
