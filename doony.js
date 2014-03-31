@@ -427,8 +427,8 @@
     //var domain = getSubdomain(window.location.hostname);
     doonyTitleLink.html("<div id='doony-title'>" + "<img src='http://iwe.cisco.com/image/image_gallery?img_id=838521785' height='80' width='70'>" + "</div>");
 
-    var color = colors[Math.abs(hashCode(domain)) % colors.length];
-    $("#top-panel").css('background-color', color);
+   // var color = colors[Math.abs(hashCode(domain)) % colors.length];
+   // $("#top-panel").css('background-color', color);
 
     // Remove icons from the left hand menu and strip nbsp's
     $(".task").each(function() {
