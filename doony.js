@@ -425,7 +425,7 @@
 
     var doonyTitleLink = $("#top-panel a").first();
     //var domain = getSubdomain(window.location.hostname);
-    doonyTitleLink.html("<div id='doony-title'>" + "<img src='http://iwe.cisco.com/image/image_gallery?img_id=841305248' height='70' width='70'>&nbsp;&nbsp;<font size='5' color='black'>DFT Continuous Integration</font>" + "</div>");
+    doonyTitleLink.html("<div id='doony-title'>" + "<img src='http://iwe.cisco.com/image/image_gallery?img_id=841305248' height='70' width='70'>&nbsp;&nbsp;<font size='7' color='#808080'>DFT Continuous Integration</font>" + "</div>");
 
    // var color = colors[Math.abs(hashCode(domain)) % colors.length];
    // $("#top-panel").css('background-color', color);
