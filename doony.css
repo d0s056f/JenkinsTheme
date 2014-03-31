@@ -609,7 +609,7 @@ textarea {
 /********************   top panel styles      ***********************/
 .yui-skin-sam #top-panel {
   background-url: none;
-  background-image: none;
+  background-color: #ed4a6a;
   border-bottom: 1px solid #ccc;
 }
 
