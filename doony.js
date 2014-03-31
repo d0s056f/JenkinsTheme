@@ -425,7 +425,7 @@
 
     var doonyTitleLink = $("#top-panel a").first();
     //var domain = getSubdomain(window.location.hostname);
-    doonyTitleLink.html("<div id='doony-title'>" + "<img src='http://iwe.cisco.com/image/image_gallery?img_id=841305248' height='70' width='70'>&nbsp;&nbsp;&nbsp;&nbsp;<font size='5' color='#474747'>DFT Continuous Integration - Jenkins</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='http://iwe.cisco.com/image/image_gallery?img_id=841305799' height='60' width='90'>" + "</div>");
+    doonyTitleLink.html("<div id='doony-title'>" + "<img src='http://iwe.cisco.com/image/image_gallery?img_id=841305248' height='70' width='70'>&nbsp;&nbsp;&nbsp;<font size='5' color='#474747'>DFT Continuous Integration - Jenkins</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='http://iwe.cisco.com/image/image_gallery?img_id=841305799' height='50' width='90'>" + "</div>");
 
    // var color = colors[Math.abs(hashCode(domain)) % colors.length];
    // $("#top-panel").css('background-color', color);
