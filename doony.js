@@ -425,7 +425,7 @@
 
     var doonyTitleLink = $("#top-panel a").first();
     //var domain = getSubdomain(window.location.hostname);
-    doonyTitleLink.html("<div id='doony-title'>" + "<img src='http://iwe.cisco.com/image/image_gallery?img_id=848910386' height='40' width='70'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='http://iwe.cisco.com/image/image_gallery?img_id=848910539' height='25'>" + "</div>");
+    doonyTitleLink.html("<div id='doony-title'>" + "<img src='http://iwe.cisco.com/image/image_gallery?img_id=848910386' height='40' width='70'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='http://iwe.cisco.com/image/image_gallery?img_id=848910539' height='30'>" + "</div>");
 
    // var color = colors[Math.abs(hashCode(domain)) % colors.length];
    // $("#top-panel").css('background-color', color);
@@ -640,7 +640,7 @@
         }
     }
 
-    $("#l10n-footer").after("<span class='doony-theme'>Browsing Jenkins with " +
-        "the <a target='_blank' href='https://github.com/kevinburke/doony'>" +
-        "Doony theme</a></span>");
+    $("#l10n-footer").after("<span class='doony-theme'>Reach out to DFT at " +
+        "the <a target='_blank' href='mailto:dft-ci@cisco.com'>" +
+        "dft-ci@cisco.com</a></span>");
 });
