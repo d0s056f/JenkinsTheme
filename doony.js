@@ -425,7 +425,7 @@
 
     var doonyTitleLink = $("#top-panel a").first();
     //var domain = getSubdomain(window.location.hostname);
-    doonyTitleLink.html("<div id='doony-title'>" + "<img src='http://iwe.cisco.com/image/image_gallery?img_id=848910386' height='45' width='70'>&nbsp;&nbsp;&nbsp;<font size='5' color='#ffffff'>Jenkins Continuous Integration</font>" + "</div>");
+    doonyTitleLink.html("<div id='doony-title'>" + "<img src='http://iwe.cisco.com/image/image_gallery?img_id=848910386' height='45' width='70'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size='5' color='#ffffff'>Jenkins Continuous Integration</font>" + "</div>");
 
    // var color = colors[Math.abs(hashCode(domain)) % colors.length];
    // $("#top-panel").css('background-color', color);
