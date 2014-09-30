@@ -593,7 +593,7 @@
     if (isJobPage(window.location.pathname)) {
         var button = document.createElement('button');
         button.className = "btn btn-primary doony-build";
-        button.innerHTML = "Build Now";
+       // button.innerHTML = "Build Now";
         $(button).click(function() {
             var jobUrl = getRootJobUrl(window.location.pathname);
             // The build post endpoint doesn't tell you the number of the next
