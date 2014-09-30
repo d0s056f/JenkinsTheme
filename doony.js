@@ -590,10 +590,10 @@
         });
     }
 
-    if (isJobPage(window.location.pathname)) {
+  /*  if (isJobPage(window.location.pathname)) {
         var button = document.createElement('button');
         button.className = "btn btn-primary doony-build";
-       // button.innerHTML = "Build Now";
+        button.innerHTML = "Build Now";
         $(button).click(function() {
             var jobUrl = getRootJobUrl(window.location.pathname);
             // The build post endpoint doesn't tell you the number of the next
@@ -638,7 +638,7 @@
             title.css('display', 'inline-block');
             title.after(button);
         }
-    }
+    } */
 
     $("#l10n-footer").after("<span class='doony-theme'>Reach out to DFT at " +
         " <a href='mailto:dft-ci@cisco.com'>" +
